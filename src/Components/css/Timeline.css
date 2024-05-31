@@ -1,0 +1,110 @@
+.timeline--wrapper {
+    margin-top: 200px;
+}
+
+.timeline--title {
+    margin-left: 5%;
+    color: var(--accent);
+    font-size: calc(35px + 1.8vw);
+}
+
+.timeline--line-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1200px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.timeline--center {
+    height: 100%;
+    width: 5px;
+    background-color: var(--main-text);
+}
+
+.timeline--abs {
+    position: absolute;
+    color: var(--secondary-text);
+    font-size: calc(50px + 2vw)
+}
+
+.timeline--2018 {
+    right: 60%;
+}
+.timeline--2021 {
+    left: 60%;
+    top: 200px;
+}
+.timeline--2022 {
+    right: 60%;
+    top: 400px;
+}
+.timeline--2023 {
+    left: 60%;
+    top: 600px;
+}
+.timeline--2024 {
+    right: 60%;
+    top: 800px
+}
+.timeline--present {
+    color: var(--main-text);
+    font-size: calc(50px + 2vw)
+}
+
+.content--main {
+    color: var(--main-text);
+    font-size: calc(20px + 0.6vw);
+    /* line-height: 1; */
+}
+
+.content--wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.csustan--wrapper {
+    height: 600px;
+    left: calc(55%);
+}
+
+.csustan--line {
+    height: 100%;
+    width: 3px;
+    background-color: red;
+}
+
+.csustan--top {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+}
+
+.csustan--top::before {
+    content: 'CSU Stanislaus';
+    position: absolute;
+    left: calc(100% + 5px);
+    top: calc(-10px - 0.8vw);
+    color: var(--main-text);
+    min-width: max-content;
+}
+
+.csustan--bottom {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+}
+
+.csustan--bottom::before {
+    content: 'CSU Stanislaus';
+    position: absolute;
+    left: calc(100% + 5px);
+    top: calc(-10px - 0.8vw);
+    color: var(--main-text);
+    min-width: max-content;
+}

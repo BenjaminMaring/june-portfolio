@@ -1,0 +1,125 @@
+.hero-wrapper {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-wrapper > h5 {
+    font-size: calc(20px + 0.2vw);
+    margin-bottom: 20px;
+    max-width: 60%;
+    margin-top: 10vh;
+}
+
+.hero-wrapper > h1 {
+    color: #e9f2fa;
+    margin-left: 15%;
+    margin-right: 5%;
+    position: relative;
+    width: fit-content;
+    /* letter-spacing: -0.4rem; */
+    font-weight: normal;
+}
+
+.hero-wrapper > h5, .hero-wrapper > h6 {
+    /* color: white; */
+    color: #ccd6f6;
+    font-weight: normal;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10vw;
+}
+
+.hero--sub {
+    font-size: calc(20px + 0.1vw) !important;
+    margin-right: 10vw;
+}
+
+
+.hero-wrapper > h1 > span {
+    font-weight: normal;
+    font-size: calc(40px + 4vw);
+    position: relative;
+    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-color: white; */
+}
+
+.hero-wrapper > h1 > span::after {
+    position: absolute;
+    color: transparent;
+    content: attr(data-string);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--accent);
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+}
+
+.hero-wrapper > h6 {
+    margin-top: 30px;
+    
+    max-width: 850px;
+}
+
+.delay-one::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 6200ms;
+}
+.delay-two::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 6300ms;
+}
+.delay-three::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 6400ms;
+}
+.delay-four::after {
+    animation: title-effect-after 5s infinite; 
+    animation-delay: 6500ms;
+}
+
+@keyframes title-effect-after {
+    0% {
+        left: 0px;
+        top: 0px;
+    } 10% {
+        left: 10px;
+        top: 10px;
+    } 20% {
+        left: 0px;
+        top: 0px;
+    } 100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.hero-accent {
+    color: var(--accent);
+}
+
+.hero-bvt {
+    color: var(--accent);
+    font-size: calc(20px + 0.2vw);
+    text-decoration: underline 2px var(--secondary-text);
+}
+
+.hero-button {
+    background-color: transparent;
+    border: solid 1px var(--accent);
+    border-radius: 9px;
+    color: var(--accent);
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    transition: background-color 100ms linear, color 100ms linear;
+}
+
+.hero-button:hover {
+    color: var(--bg-color);
+    background-color: var(--accent);
+    transition: background-color 200ms linear, color 200ms linear;
+}
+
+

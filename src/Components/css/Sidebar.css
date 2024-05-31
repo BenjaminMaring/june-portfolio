@@ -1,0 +1,86 @@
+.sidebar-wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    width: 60px;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.sidebar-lineBefore {
+    position: relative;
+    background-color: var(--secondary-text);
+    width: 3px;
+    height: 0px;
+    
+}
+
+.sidebar-lineBefore::before {
+    content: "/";
+    position: absolute;
+    display: inline-block;
+    rotate: 90deg;
+    color: var(--accent);
+    bottom: 0px;
+    left: -2px;
+    line-height: 0;
+}
+
+.sidebar-lineAfter {
+    position: relative;
+    background-color: var(--secondary-text);
+    width: 3px;
+    height: 0px;
+}
+
+.sidebar-lineAfter::after {
+    content: "/";
+    position: absolute;
+    display: inline-block;
+    rotate: 90deg;
+    color: var(--accent);
+    top: 0px;
+    line-height: 0;
+    left: -2px;
+
+}
+
+.sidebar-socials {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    height: 0px;
+}
+
+.sidebar-socials > a > i {
+    margin: 5px 0;
+    color: var(--secondary-text);
+    transition: color 200ms linear;
+}
+
+.sidebar-socials > a > i:hover {
+    color: var(--accent);
+    transition: color 200ms linear;
+}
+
+.sidebar-1 {
+    padding-left: 4px;
+}
+.sidebar-2 {
+    padding-left: 5px;
+}
+.sidebar-3 {
+    padding-left: 4px;
+}
+.sidebar-4 {
+    padding-left: 4px;
+}
+
+#sidebar-social-wrapper {
+    margin: 0px;
+    overflow-y: hidden;
+}
