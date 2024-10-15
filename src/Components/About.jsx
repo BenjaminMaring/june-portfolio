@@ -13,7 +13,11 @@ export default function About() {
                     <img className="about--profile" src="./public/profile.jpg"></img>
                 </div>
                 <p>
-                    Hello, as mentioned above my name is Benjamin Maring, a full stack software developer. Currently I am sharpening my skills as a developer at Bay Valley Tech through their internship program. I started coding in college at CSU Stanislaus, and have since graduated with a bachelors in computer science. <br></br><br></br>When I am not coding, you can find me either at the gym, hanging out with friends, or playing video games. I also really enjoy playing tennis, and have recently picked up pickleball with friends. Im not on social media much, but Id love to connect with you. You can find my contact info <a href="#contact">Here</a>.  
+                    Hello, as mentioned above my name is Benjamin Maring. I have been working as an MSP technitian for a little over two years now, which I started while I was in college. 
+                    I graduated from CSU Stanislaus in 2022 with a degree in computer science, where I developed my interest in computers. 
+                    <br></br><br></br>
+                    I am constantly trying to learn new things, wether it is just for a hobby or for a career. Currently I am trying to get a CompTIA A+ certificate. 
+                    I have also built some pretty interesting web applications which can be found below.
                 </p>
             </div>
         </div>
