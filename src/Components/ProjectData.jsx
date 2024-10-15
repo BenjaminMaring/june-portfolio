@@ -9,6 +9,14 @@ const projectData = [
 
     {
       key: 1,
+      url: './public/Quanta.png', 
+      desc: <p><span>Quanta</span> is an application used for keeping track of time spent on projects for teams.</p>,
+      learned: <p>This was developed with a team of 5 developers, using React, Express, tailwind, and SQL. Currently the project is not being hosted due to database costs.</p>,
+      features: ["React", "Express JS", "SQL"]
+    },
+
+    { 
+      key: 2,
       url: './public/temp-diff.png', 
       desc: <p><span>Temp Diff</span> is an application that lets you compare two locations weather at once.</p>,
       learned: <p>Temp Diff  uses Googles Places API to retrieve coordinates, and then reaches out to OpenWeather's API for that places weather data. Try it <a href="https://emanate-demo.web.app">Here</a>.</p>,
@@ -16,19 +24,11 @@ const projectData = [
     },
 
     { 
-      key: 2,
+      key: 3,
       url: './public/tens-live.png', 
       desc: <p><span>Tens</span> is a simple game made with React, where the goal is to get every number the same</p>,
-      learned: <p>This was a simple project simplly to practice using react. Play it <a href="https://tens-benjamin-maring.netlify.app">Here</a>.</p>,
+      learned: <p>This was a simple project simpley to practice using react. Play it <a href="https://tens-benjamin-maring.netlify.app">Here</a>.</p>,
       features: ["React"]
-    },
-
-    { 
-      key: 3,
-      url: './images/projects/AeroWings.png', 
-      desc: <p><span>AeroWings</span> is a fictional company that specializes in private travel.</p>,
-      learned: <p>The point of this project was to practice using a <span>CMS</span>, where I learned just how different web design can be when using a CMS</p>,
-      features: ["Canva", "Wix"]
     }
 ]
 

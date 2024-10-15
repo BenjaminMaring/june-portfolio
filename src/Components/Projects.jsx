@@ -29,9 +29,9 @@ export default function Project() {
                 <div className="projects-section">
                     <ul id="projects-nav" data-selected={project.key}>
                         <li onClick={() => {changeProject(0)}} className="projects-selected">Emenate</li>
-                        <li onClick={() => {changeProject(1)}}>Temp Diff</li>
-                        <li onClick={() => {changeProject(2)}}>Tens</li>
-                        <li onClick={() => {changeProject(3)}}>Links Page</li>
+                        <li onClick={() => {changeProject(1)}}>Quanta</li>
+                        <li onClick={() => {changeProject(2)}}>Temp Diff</li>
+                        <li onClick={() => {changeProject(3)}}>Tens</li>
                     </ul>
                     <div className="projects-info-desc">
                         {project.desc}
